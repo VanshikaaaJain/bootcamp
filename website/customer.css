@@ -1,0 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: rgba(0,0,0,0.77) url('../customer.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+
+
+.bg-light{
+    background-color: #dee2e4!important;
+}
+
+.navbar-brand{
+    
+    font-size: 1.5rem;
+    color: rgb(40, 60, 68)!important;
+}
+
+.nav-link{
+    color: rgb(222, 234, 236);
+    font-family:monospace;
+}
+
+.my-info{
+    padding: 2rem 5rem;
+    color: whitesmoke;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(78, 153, 223)!important;
+    color: purple!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color:rgb(94, 114, 114)!important;
+}
+#cursor_pointer{
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+}
+.table-danger, .table-danger>td, .table-danger>th {
+    background-color: lightgrey;
+}
+.table-danger, .table-danger>td, .table-danger>th:hover {
+    background-color: blue;
+
+}
